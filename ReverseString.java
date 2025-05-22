@@ -12,16 +12,16 @@
 
 import java.util.Scanner;
 
-public class ReverseString{  
-      public static void main(String[] args) {
+public class ReverseString {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the String:");
         String input = sc.next();
         String reversed = " ";
 
-        for (int i=input.length()-1; i>=0;  i--){
-            reversed = reversed+input.charAt(i);
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed = reversed + input.charAt(i);
         }
         System.out.println(reversed);
     }
